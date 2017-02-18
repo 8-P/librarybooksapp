@@ -1,2 +1,3 @@
-# librarybooks
-Library Books Mac and iOS app from 2014
+# Library Books
+
+Library Books Mac and iOS app source code. I stopped working on this application in 2014.
