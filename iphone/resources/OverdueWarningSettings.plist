@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Key</key>
+	<string>OverdueAlert</string>
+	<key>DefaultValue</key>
+	<integer>1</integer>
+	<key>Titles</key>
+	<array>
+		<string>On due date</string>
+		<string>1 day before</string>
+		<string>2 days before</string>
+		<string>3 days before</string>
+		<string>4 days before</string>
+		<string>5 days before</string>
+		<string>6 days before</string>
+		<string>1 week before</string>
+		<string>2 weeks before</string>
+	</array>
+	<key>Values</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<real>2</real>
+		<real>3</real>
+		<real>4</real>
+		<real>5</real>
+		<real>6</real>
+		<integer>7</integer>
+		<integer>14</integer>
+	</array>
+</dict>
+</plist>

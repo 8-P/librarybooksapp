@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Library Books 3' target in the 'Library Books 3' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <Foundation/Foundation.h>
+	#import <CoreData/CoreData.h>
+	#import <CoreLocation/CoreLocation.h>
+	#import "RegexKitLite.h"
+	#import "HTMLTidy.h"
+	#import "JSON.h"
+#endif

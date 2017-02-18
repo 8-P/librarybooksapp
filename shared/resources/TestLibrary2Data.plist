@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Loans</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Postcards from Mars : the first photographer on the red planet</string>
+			<key>author</key>
+			<string>Jim Bell.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Akiko and the journey to Toog</string>
+			<key>author</key>
+			<string>written and illustrated by Mark Crilley.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The composer is dead</string>
+			<key>author</key>
+			<string>written by Lemony Snicket ; with music composed by Nathaniel Stookey ; and il</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Crow call</string>
+			<key>author</key>
+			<string>Lois Lowry ; illustrations by Bagram Ibatoulline.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Skylar : a story</string>
+			<key>author</key>
+			<string>by Mary Cuffe-Perez ; illustrated by Renata Liwska.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Conspicuous compassion : why sometimes it really is cruel to be kind</string>
+			<key>author</key>
+			<string>Patrick West</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The swell season [sound recording]</string>
+			<key>author</key>
+			<string>Glen Hansard and Marketa Irglova.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Memoranda</string>
+			<key>author</key>
+			<string>Jeffrey Ford.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The new drawing on the right side of the brain</string>
+			<key>author</key>
+			<string>Betty Edwards.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The photographer</string>
+			<key>author</key>
+			<string>Emmanuel Guibert, Didier Lefèvre, Frédéric Lemercier ; translated by Alexis Siege</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The harrowing</string>
+			<key>author</key>
+			<string>Alexandra Sokoloff.</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Fearless critic : Portland restaurant guide</string>
+			<key>author</key>
+			<string>[by Robin Goldstein, Alex Herschkowitsch, Erin McReyno</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Childhood unbound : saving our kids&apos; best selves--confident parenting in a world of change</string>
+			<key>author</key>
+			<string>Ron Taf</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Diva [videorecording]</string>
+			<key>author</key>
+			<string>Studio Canal ; Irène Silberman presents a film by Jean-Jacques Beineix ; scr</string>
+			<key>dueDate</key>
+			<string>04-14-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Bicycle diaries</string>
+			<key>author</key>
+			<string>David Byrne.</string>
+			<key>dueDate</key>
+			<string>04-03-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Moby Dick : based on the novel by Herman Melville</string>
+			<key>author</key>
+			<string>retelling by Lew Sayre Schwartz ; illustrations</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The mammoth book of the world&apos;s best crime stories</string>
+			<key>author</key>
+			<string>edited and with an introduction by Maxim Jakubo</string>
+			<key>dueDate</key>
+			<string>04-28-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Thirtysomething. The complete first season [videorecording]</string>
+			<key>author</key>
+			<string>Metro-Goldwyn-Mayer.</string>
+			<key>dueDate</key>
+			<string>04-07-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Don&apos;t sleep, there are snakes : life and language in the Amazonian jungle</string>
+			<key>author</key>
+			<string>Daniel L. Everett.</string>
+			<key>dueDate</key>
+			<string>04-18-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Big love. The complete second season [videorecording]</string>
+			<key>author</key>
+			<string>Home Box Office ; [presented by] HBO Enterta</string>
+			<key>dueDate</key>
+			<string>04-18-10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Monsters of Folk [sound recording].</string>
+			<key>author</key>
+			<string></string>
+			<key>dueDate</key>
+			<string>04-18-10</string>
+		</dict>
+	</array>
+	<key>Holds</key>
+	<array>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>30 Rock. Season 3 [videorecording] / Broadway Video ; Little Stranger, Inc. ; Universal Media Studio</string>
+			<key>queueDescription</key>
+			<string>8 of 77 holds on 38 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>The national parks [videorecording] : America&apos;s best idea / a production of Florentine Films and WET</string>
+			<key>queueDescription</key>
+			<string>6 of 98 holds on 20 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Lost. The complete fifth season, The journey back [videorecording] / ABC Studios ; Bad Robot.</string>
+			<key>queueDescription</key>
+			<string>1 of 1 holds</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>It might get loud [videorecording] / a Sony Pictures Classic release, a Thomas Tull production, a fi</string>
+			<key>queueDescription</key>
+			<string>51 of 167 holds on 9 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Food rules : an eater&apos;s manual / Michael Pollan.</string>
+			<key>queueDescription</key>
+			<string>137 of 389 holds on 72 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Fantasies [sound recording] / Metric.</string>
+			<key>queueDescription</key>
+			<string>113 of 168 holds on 32 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>The hangover [videorecording] / Warner Bros. Pictures presents in association with Legendary Picture</string>
+			<key>queueDescription</key>
+			<string>453 of 496 holds on 35 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Mad men. Season three [videorecording] / American Movie Classics ; Road Rebel.</string>
+			<key>queueDescription</key>
+			<string>214 of 313 holds on 51 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Fringe. The complete first season [videorecording] / Warner Bros. Television ; Bad Robot ; created b</string>
+			<key>queueDescription</key>
+			<string>82 of 111 holds on 23 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>The story of India [videorecording] / Maya Vision International.</string>
+			<key>queueDescription</key>
+			<string>10 of 16 holds on 13 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Battlestar Galactica. Season one [videorecording] / R&amp;D TV ; Sky TV ; USA Cable Entertainment ; writ</string>
+			<key>queueDescription</key>
+			<string>46 of 57 holds on 30 copies</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>Harry Potter and the sorcerer&apos;s stone [videorecording] / Warner Bros. Pictures presents a Heyday Fil</string>
+			<key>queueDescription</key>
+			<string>1 of 1 holds</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+		<dict>
+			<key>titleAndAuthor</key>
+			<string>In search of ancient Oregon : a geological and natural history / Ellen Morris Bishop.</string>
+			<key>queueDescription</key>
+			<string>1 of 1 holds</string>
+			<key>pickupLocation</key>
+			<string>Hollywood Library</string>
+		</dict>
+	</array>
+</dict>
+</plist>

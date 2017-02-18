@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26FB2C215B2553500D3257B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26FB2C115B2553500D3257B /* Cocoa.framework */; };
+		F26FB2CC15B2553500D3257B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26FB2CA15B2553500D3257B /* InfoPlist.strings */; };
+		F26FB2CE15B2553500D3257B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FB2CD15B2553500D3257B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26FB2BD15B2553500D3257B /* LBMac3Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBMac3Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FB2C115B2553500D3257B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F26FB2C415B2553500D3257B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F26FB2C615B2553500D3257B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F26FB2C915B2553500D3257B /* LBMac3Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LBMac3Launcher-Info.plist"; path = "LBMac3Launcher/LBMac3Launcher-Info.plist"; sourceTree = "<group>"; };
+		F26FB2CB15B2553500D3257B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F26FB2CD15B2553500D3257B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LBMac3Launcher/main.m; sourceTree = "<group>"; };
+		F26FB2CF15B2553500D3257B /* LBMac3Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LBMac3Launcher-Prefix.pch"; path = "LBMac3Launcher/LBMac3Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		F26FB2F915B2566100D3257B /* LBMac3Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LBMac3Launcher.entitlements; path = LBMac3Launcher/LBMac3Launcher.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26FB2BA15B2553500D3257B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FB2C215B2553500D3257B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26FB2B215B2553400D3257B = {
+			isa = PBXGroup;
+			children = (
+				F26FB2F915B2566100D3257B /* LBMac3Launcher.entitlements */,
+				F26FB2C915B2553500D3257B /* LBMac3Launcher-Info.plist */,
+				F26FB2CA15B2553500D3257B /* InfoPlist.strings */,
+				F26FB2CD15B2553500D3257B /* main.m */,
+				F26FB2CF15B2553500D3257B /* LBMac3Launcher-Prefix.pch */,
+				F26FB2C015B2553500D3257B /* Frameworks */,
+				F26FB2BE15B2553500D3257B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26FB2BE15B2553500D3257B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26FB2BD15B2553500D3257B /* LBMac3Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26FB2C015B2553500D3257B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26FB2C415B2553500D3257B /* AppKit.framework */,
+				F26FB2C615B2553500D3257B /* Foundation.framework */,
+				F26FB2C115B2553500D3257B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26FB2BC15B2553500D3257B /* LBMac3Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FB2DB15B2553500D3257B /* Build configuration list for PBXNativeTarget "LBMac3Launcher" */;
+			buildPhases = (
+				F26FB2B915B2553500D3257B /* Sources */,
+				F26FB2BA15B2553500D3257B /* Frameworks */,
+				F26FB2BB15B2553500D3257B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBMac3Launcher;
+			productName = LBMac3Launcher;
+			productReference = F26FB2BD15B2553500D3257B /* LBMac3Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26FB2B415B2553400D3257B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F26FB2B715B2553400D3257B /* Build configuration list for PBXProject "LBMac3Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F26FB2B215B2553400D3257B;
+			productRefGroup = F26FB2BE15B2553500D3257B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26FB2BC15B2553500D3257B /* LBMac3Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26FB2BB15B2553500D3257B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FB2CC15B2553500D3257B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26FB2B915B2553500D3257B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FB2CE15B2553500D3257B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26FB2CA15B2553500D3257B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26FB2CB15B2553500D3257B /* en */,
+			);
+			name = InfoPlist.strings;
+			path = LBMac3Launcher;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26FB2D915B2553500D3257B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F26FB2DA15B2553500D3257B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F26FB2DC15B2553500D3257B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LBMac3Launcher/LBMac3Launcher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBMac3Launcher/LBMac3Launcher-Prefix.pch";
+				INFOPLIST_FILE = "LBMac3Launcher/LBMac3Launcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F26FB2DD15B2553500D3257B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LBMac3Launcher/LBMac3Launcher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBMac3Launcher/LBMac3Launcher-Prefix.pch";
+				INFOPLIST_FILE = "LBMac3Launcher/LBMac3Launcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26FB2B715B2553400D3257B /* Build configuration list for PBXProject "LBMac3Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FB2D915B2553500D3257B /* Debug */,
+				F26FB2DA15B2553500D3257B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FB2DB15B2553500D3257B /* Build configuration list for PBXNativeTarget "LBMac3Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FB2DC15B2553500D3257B /* Debug */,
+				F26FB2DD15B2553500D3257B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26FB2B415B2553400D3257B /* Project object */;
+}

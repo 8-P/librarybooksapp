@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HtmlHeader</key>
+	<string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+	&lt;style&gt;
+		body {margin-left: 5em}
+		.m, .d {font: 12px Monaco; line-height: 1.8; text-indent: -5em}
+		.d {font: 12px Monaco; color: Gray}
+	 	.d a:link {color: CornflowerBlue}
+		.d a:visited {color: Gainsboro}
+		.h {visibility: hidden; display: none}
+		.e {background-color: #c5ddfe; border-top: 1px solid #ebf3ff}
+		.s {height: 1em}
+		hr {border: none; border-top: 1px solid #5e90c8; height: 1px; margin-left: -4.5em}
+	&lt;/style&gt;
+	&lt;script&gt;
+		function displayRawHTML(id)
+		{
+			var w = window.open();
+			var d = w.document;
+			
+			d.write(&apos;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;http://librarybooksapp.com/file/sh/2.1.382/styles/shThemeDefault.css&quot;&gt;&lt;/link&gt;&apos;);
+			d.write(&apos;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;http://librarybooksapp.com/file/sh/2.1.382/styles/shCore.css&quot;&gt;&lt;/link&gt;&apos;);
+			d.write(&quot;&lt;s&quot; + &quot;cript type=&apos;text/javascript&apos; src=&apos;http://librarybooksapp.com/file/sh/2.1.382/scripts/shCore.js&apos;&gt;&lt;/s&quot; + &quot;cript&gt;&quot;);
+			d.write(&quot;&lt;s&quot; + &quot;cript type=&apos;text/javascript&apos; src=&apos;http://librarybooksapp.com/file/sh/2.1.382/scripts/shBrushXml.js&apos;&gt;&lt;/s&quot; + &quot;cript&gt;&quot;)
+			d.write(&quot;&lt;s&quot; + &quot;cript type=&apos;text/javascript&apos;&gt;SyntaxHighlighter.config.clipboardSwf = &apos;http://librarybooksapp.com/file/sh/2.1.382/scripts/clipboard.swf&apos;; SyntaxHighlighter.all();&lt;/s&quot; + &quot;cript&gt;&quot;);
+
+			d.write(&quot;&lt;div style=&apos;font-size: 12px&apos;&gt;&lt;pre class=&apos;brush: html; tab-size: 4&apos;&gt;&quot;);
+			
+			var html = document.getElementById(id).innerHTML;
+			html = base64Decode(html);
+			html = escapeHTML(html);
+			html = stripExtraNewlines(html);
+			
+			d.write(html);
+			d.write(&quot;&lt;/pre&gt;&lt;/div&gt;&quot;)
+			d.close();
+		}
+		
+		function displayWebPage(id)
+		{
+			var w = window.open();
+			var d = w.document;
+			
+			var html = document.getElementById(id).innerHTML;
+			html = base64Decode(html);
+			html = disableRefreshesAndJavascript(html);
+			d.write(html);
+			
+			d.close();
+		}
+		
+		function escapeHTML(html)
+		{
+			html = html.replace(/&amp;/g, &quot;&amp;amp;&quot;); 
+			html = html.replace(/&lt;/g, &quot;&amp;lt;&quot;); 
+			html = html.replace(/&gt;/g, &quot;&amp;gt;&quot;);
+			return html;
+		}
+		
+		function stripExtraNewlines(html)
+		{
+			html = html.replace(/\n\n+/g, &quot;\n&quot;);
+			html = html.replace(/\r\n(\r\n)+/g, &quot;\n&quot;);
+			return html;
+		}
+		
+		function disableRefreshesAndJavascript(html)
+		{
+			html = html.replace(/\.submit\(\)/g, &quot;.submitOFF()&quot;);
+			return html;
+		}
+		
+		// Base64 decoder (based on code from http://www.webtoolkit.info)
+		var decodingTable = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=&quot;;
+		function base64Decode(input)
+		{
+			var output = &quot;&quot;;
+			var chr1, chr2, chr3;
+			var enc1, enc2, enc3, enc4;
+			var i = 0;
+
+			input = input.replace(/[^A-Za-z0-9\+\/\=]/g, &quot;&quot;);
+
+			while (i &lt; input.length)
+			{
+				enc1 = decodingTable.indexOf(input.charAt(i++));
+				enc2 = decodingTable.indexOf(input.charAt(i++));
+				enc3 = decodingTable.indexOf(input.charAt(i++));
+				enc4 = decodingTable.indexOf(input.charAt(i++));
+
+				chr1 = (enc1 &lt;&lt; 2) | (enc2 &gt;&gt; 4);
+				chr2 = ((enc2 &amp; 15) &lt;&lt; 4) | (enc3 &gt;&gt; 2);
+				chr3 = ((enc3 &amp; 3) &lt;&lt; 6) | enc4;
+
+				output = output + String.fromCharCode(chr1);
+				if (enc3 != 64)
+				{
+					output += String.fromCharCode(chr2);
+				}
+				if (enc4 != 64)
+				{
+					output += String.fromCharCode(chr3);
+				}
+			}
+
+			return output;
+		}
+	&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+</string>
+	<key>HtmlFooter</key>
+	<string>&lt;/body&gt;&lt;/html&gt;</string>
+</dict>
+</plist>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Loans</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>iPhone: The Missing Manual</string>
+			<key>author</key>
+			<string>David Pogue</string>
+			<key>dueDate</key>
+			<string>2019-08-31</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Hong Kong &amp; Macau : city guide</string>
+			<key>author</key>
+			<string>Stone, Andrew, 1971-</string>
+			<key>dueDate</key>
+			<string>2019-01-02</string>
+			<key>isbn</key>
+			<string>9781741046656</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Perl Best Practices</string>
+			<key>author</key>
+			<string>Damian Conway</string>
+			<key>dueDate</key>
+			<string>2016-11-01</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Antarctica</string>
+			<key>author</key>
+			<string>Rubin, Jeff, 1963-</string>
+			<key>dueDate</key>
+			<string>2019-08-09</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Sweden</string>
+			<key>author</key>
+			<string>by Ohlsen, Becky.</string>
+			<key>dueDate</key>
+			<string>2019-08-09</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Beautiful Code /</string>
+			<key>author</key>
+			<string></string>
+			<key>dueDate</key>
+			<string>2016-11-01</string>
+		</dict>
+	</array>
+	<key>Holds</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>San Francisco</string>
+			<key>author</key>
+			<string>Richard Sterling</string>
+			<key>queueDescription</key>
+			<string>Ready for pickup</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Best iPhone Apps</string>
+			<key>author</key>
+			<string>Josh Clark</string>
+			<key>queueDescription</key>
+			<string>Your position in the hold queue: 7</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>The rough guide to Melbourne</string>
+			<key>author</key>
+			<string>Thomas, Karoline.</string>
+			<key>queueDescription</key>
+			<string>Your position in the hold queue: 4</string>
+		</dict>
+	</array>
+</dict>
+</plist>

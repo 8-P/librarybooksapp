@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enabled</key>
+	<false/>
+	<key>Name</key>
+	<string>Hampshire Library Service</string>
+	<key>Identifier</key>
+	<string>uk.HampshireLibrariesAndInformationService</string>
+	<key>ThemeColour</key>
+	<string>0x02254b</string>
+	<key>IconLabel</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>au.id.haroldchu.librarybooks</string>
+</dict>
+</plist>
