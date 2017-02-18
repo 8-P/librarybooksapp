@@ -1,5 +1,5 @@
 # Library Books App
 
-Library Books Mac and iOS app source code. I stopped working on this application in 2014.
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-https://www.facebook.com/librarybooksapp
+Library Books Mac and iOS app source code. I stopped working on this application in 2014.
